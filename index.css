@@ -9,7 +9,20 @@ body {
     justify-content: center;
     align-items: center;
     padding-top: 2em;
+    height: fit-content;
+    width: 95%;
 
+}
+h1, h2, h3, p, a{
+    margin: 0;
+    color: #fff;
+    width: fit-content;
+}
+h3{
+    font-size: medium;
+}
+p, a{
+    font-size: small;
 }
 section{
     display: flex;
@@ -26,4 +39,30 @@ section{
     width: 22.5em;
     height: auto;
     margin: 0.2em;
+}
+
+#main-content{
+    height: fit-content;
+    width: 100%;
+    background-color: #252525;
+    margin: 1em;
+    padding: 0.5em;
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    border-radius: 1em;
+}
+
+#main-section{
+    height: 100%;
+    width: 40%;
+    margin: 0em;
+}
+.q-a-container{
+    padding: 0;
+    margin: 0.5em;
+    text-align: left;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
 }
