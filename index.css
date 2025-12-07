@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    background-color:#1a1a1a;
+    font-family: "Space Mono", "Monaco", "Lucida Console", "Courier New", monospace;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2em;
+
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#ysws-tagline{
+    font-size: 0.77em;
+    font-weight: normal;
+    margin: 0.2em;
+}
+#gearbox-title{
+    width: 22.5em;
+    height: auto;
+    margin: 0.2em;
+}
