@@ -5,13 +5,17 @@ body {
     font-family: "Space Mono", "Monaco", "Lucida Console", "Courier New", monospace;
     color: white;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: column !important;
     align-items: center;
     padding-top: 2em;
     height: fit-content;
     width: 95%;
 
+}
+
+img{
+    width: 8em;
+    height: auto;
 }
 h1, h2, h3, p, a{
     margin: 0;
@@ -26,14 +30,14 @@ p, a{
 }
 section{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
 }
 #ysws-tagline{
     font-size: 0.77em;
     font-weight: normal;
     margin: 0.2em;
+    text-align: center;
 }
 #gearbox-title{
     width: 22.5em;
@@ -48,8 +52,8 @@ section{
     margin: 1em;
     padding: 0.5em;
     display: flex;
+    flex-direction: column;
     align-items: start;
-    justify-content: flex-start;
     border-radius: 1em;
 }
 
@@ -63,6 +67,20 @@ section{
     margin: 0.5em;
     text-align: left;
     display: flex;
-    justify-content: left;
+    align-items: start;
+    flex-direction: column;
+}
+.images-section{
+    margin: 0 2em;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: flex-start;
     align-items: flex-start;
+    gap: 1em;
+}
+
+#main-body{
+    display: flex;
+    align-items: start;
 }
