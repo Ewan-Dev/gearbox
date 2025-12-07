@@ -13,6 +13,13 @@ body {
 
 }
 
+html{
+    height: 100%;
+    display: flex;
+    align-items:start;
+    justify-content: center;
+}
+
 span{
     display: flex;
     align-items: center;
@@ -117,6 +124,7 @@ section{
 #rsvp-section{
     display: flex;
     flex-direction: column;
+    gap: 0.3em;
     justify-content:left;
     align-items: start;
 }
@@ -180,4 +188,21 @@ section{
     justify-content: center;
     width: 90%;
   }
+}
+footer{
+    width: 100%;
+    height: fit-content;
+    background-color: #252525;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    display: flex;
+    gap:0.2em;
+    flex-direction: column;
+    margin: 0 2.5em;
+}
+
+hr{
+    border: 2px solid #1a1a1a;
+    border-radius: 1em;
+    width: 95%;
 }
