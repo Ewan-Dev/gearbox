@@ -13,6 +13,12 @@ body {
 
 }
 
+span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 img{
     width: 8em;
     height: auto;
@@ -43,6 +49,10 @@ section{
     width: 22.5em;
     height: auto;
     margin: 0.2em;
+}
+
+#hack-club-logo{
+    height: 2em;
 }
 
 #faq-section{
@@ -95,6 +105,11 @@ section{
 
 }
 
+#hackclub-tagline{
+    text-align: center;
+    width: 100%;
+}
+
 #rsvp-section{
     display: flex;
     flex-direction: column;
@@ -117,18 +132,23 @@ section{
 }
 
 #rsvp-button{
-    background-color: #E1AF2C  ;
+    background-image: url(./images/button-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #1a1a1a;
 }
+
 #rsvp-button:hover{
-    color: #E1AF2C;
-    background-color: #2c2c2c;
+    background-image: url(./images/dark-button-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
     animation-name:fade;
+     color: #f2f2f2;
     animation-duration: 0.25s;
 }
 
 @keyframes fade {
-    from {color: #2c2c2c;
-    background-color: #E1AF2C;}
-    to {color: #E1AF2C;
-    background-color: #2c2c2c;}
+    from {     color: #1a1a1a;  background-image: url(./images/button-bg.png);}
+    to { background-image: url(./images/dark-button-bg.png); 
+         color: #f2f2f2;}
 }
