@@ -34,6 +34,10 @@ h3{
 p, a{
     font-size: small;
 }
+a:hover{
+    color: #D9B149;
+
+}
 section{
     display: flex;
     justify-content: start;
@@ -151,4 +155,29 @@ section{
     from {     color: #1a1a1a;  background-image: url(./images/button-bg.png);}
     to { background-image: url(./images/dark-button-bg.png); 
          color: #f2f2f2;}
+}
+
+@media only screen and (max-width: 600px) {
+  #main-body {
+    margin-top: 2em;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+  }
+  .images-section{
+    flex-direction: row;
+  }
+  #faq-section{
+        width: 90%;
+  }
+  section{
+    width: 90%;
+  }
+  #main-content{
+    margin: 2em;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+  }
 }
